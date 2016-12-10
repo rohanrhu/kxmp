@@ -1,0 +1,164 @@
+<ui version="4.0" >
+ <class>configWindow</class>
+ <widget class="QDialog" name="configWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>382</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>400</width>
+    <height>300</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>KXmp Settings</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="kxmpicons.qrc" >
+    <normaloff>:/icons/icons/sazli.png</normaloff>:/icons/icons/sazli.png</iconset>
+  </property>
+  <widget class="QDialogButtonBox" name="buttons" >
+   <property name="geometry" >
+    <rect>
+     <x>210</x>
+     <y>240</y>
+     <width>161</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation" >
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons" >
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+   <property name="centerButtons" >
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>361</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="currentIndex" >
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab" >
+    <attribute name="title" >
+     <string>General</string>
+    </attribute>
+    <widget class="QLabel" name="label" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>121</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Musics path:</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>331</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="orientation" >
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="isIgnoreCase" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>251</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Case sensivite</string>
+     </property>
+     <property name="checked" >
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="pathLine" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>311</width>
+       <height>29</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="dirSelectButton" >
+     <property name="geometry" >
+      <rect>
+       <x>320</x>
+       <y>30</y>
+       <width>30</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>...</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2" >
+    <attribute name="title" >
+     <string>Advanced</string>
+    </attribute>
+    <widget class="QCheckBox" name="isShuffle" >
+     <property name="geometry" >
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>281</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>Mixed listing</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="isColored" >
+     <property name="geometry" >
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>151</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text" >
+      <string>List colors</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="" />
+  <include location="kxmpicons.qrc" />
+ </resources>
+ <connections/>
+</ui>

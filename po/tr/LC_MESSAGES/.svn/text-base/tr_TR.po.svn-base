@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008 KXmp Developers
+# Oğuzhan Eroğlu <oguzhan@oguzhaneroglu.com>, 2008-10-04
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1\n"
+"POT-Creation-Date: 2008-10-04 18:34+EEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Oğuzhan Eroğlu <rohanrhu2@gmail.comS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Generated-By: pygettext.py 1.5\n"
+
+msgid "Playing... "
+msgstr "Çalınıyor... "
+
+msgid "xmp command is not installed, please install..."
+msgstr "xmp komutu kurulu değil, lütfen kurun..."
+
+msgid "Stopped..."
+msgstr "Durdu..."
+
+msgid "KXmp xm Player"
+msgstr "KXmp xm Çalma Uygulaması"
+
+msgid "Change to musics dir"
+msgstr "Müziklerin diznini belirtin"
+
+msgid "Play"
+msgstr "Çal"
+
+msgid "Stop"
+msgstr "Durdur"
+
+msgid "Tools"
+msgstr "Seçenekler"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "File"
+msgstr "Dosya"
+
+msgid "Settings"
+msgstr "Yapılandır"
+
+msgid "Exit"
+msgstr "Çık"
+
+msgid "Search:"
+msgstr "Arama:"
+
+msgid "Musics"
+msgstr "Müzikler"
+
+msgid "Colors"
+msgstr "Renklendirme"
+
+msgid "About KXmp"
+msgstr "KXmp Hakkında"
+
+msgid "KXmp Settings"
+msgstr "KXmp Yapılandır"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+msgid "Musics path:"
+msgstr "Müziklerin dizini:"
+
+msgid "Case sensitivity"
+msgstr "Aramada büyük/küçük harfe duyarlılık"
+
+msgid "Mixed listing"
+msgstr "Müzikleri karıştırarak listele"
+
+msgid "List colors"
+msgstr "Liste renkleri"
+
+msgid "KXmp is graphical cracktro player for KDE4..."
+msgstr "KXmp KDE4 için grafiksel cracktro çalıcısıdır..."
+
+msgid "KXmp Info"
+msgstr "KXmp Bilgi"
+
+msgid "Music select"
+msgstr "Müzik seçimi"
+
+msgid "Music is not selected, please select a music from list..."
+msgstr "Müzik seçilmedi, lütfen listeden bir müzik seçin..."
+
+msgid "Project founder and developer"
+msgstr "Proje kurucusu ve geliştirici"
+
+msgid "Splash screen"
+msgstr "Açılış resmi"
+
+msgid "Icons"
+msgstr "Simgeler"
+
+# 2008-11-07, 13:08
+msgid "Play music..."
+msgstr "Müziği çal..."
+
+msgid "Stop music..."
+msgstr "Müziği durdur..."
+
+msgid "Application settings..."
+msgstr "Uygulama ayarları..."
+
+msgid "Colored list..."
+msgstr "Renkli liste..."
+
+msgid "Help for KXmp"
+msgstr "KXmp için yardım"
+
+msgid "About for KXmp"
+msgstr "KXmp hakkında"
+
+msgid "Search music..."
+msgstr "Bir müzik ara..."

@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/buttons" >
+    <file>icons/media_playback_start.png</file>
+    <file>icons/media_playback_stop.png</file>
+  </qresource>
+  <qresource prefix="/icons" >
+    <file>metallica.png</file>
+    <file>icons/sazli.png</file>
+  </qresource>
+  <qresource prefix="/top_buttons" >
+    <file>icons/exit.png</file>
+    <file>icons/help.png</file>
+    <file>icons/palet.png</file>
+    <file>icons/preferences_system.png</file>
+  </qresource>
+</RCC>

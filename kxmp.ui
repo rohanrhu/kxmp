@@ -1,0 +1,241 @@
+<ui version="4.0" >
+ <class>kxmpWindow</class>
+ <widget class="QMainWindow" name="kxmpWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>448</width>
+    <height>418</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>KXmp xm Player</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset resource="kxmpicons.qrc" >
+    <normaloff>:/icons/icons/sazli.png</normaloff>:/icons/icons/sazli.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget" >
+   <widget class="QPushButton" name="playButton" >
+    <property name="geometry" >
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>81</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Play</string>
+    </property>
+    <property name="icon" >
+     <iconset resource="kxmpicons.qrc" >
+      <normaloff>:/buttons/icons/media_playback_start.png</normaloff>:/buttons/icons/media_playback_start.png</iconset>
+    </property>
+    <property name="flat" >
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopButton" >
+    <property name="geometry" >
+     <rect>
+      <x>354</x>
+      <y>30</y>
+      <width>81</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Stop</string>
+    </property>
+    <property name="icon" >
+     <iconset resource="kxmpicons.qrc" >
+      <normaloff>:/buttons/icons/media_playback_stop.png</normaloff>:/buttons/icons/media_playback_stop.png</iconset>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>71</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text" >
+     <string>Search:</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line" >
+    <property name="geometry" >
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>16</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="orientation" >
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchLine" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>231</width>
+      <height>29</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox" >
+    <property name="geometry" >
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>431</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="title" >
+     <string>Musics</string>
+    </property>
+    <widget class="QListWidget" name="listMusics" >
+     <property name="geometry" >
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>411</width>
+       <height>261</height>
+      </rect>
+     </property>
+     <property name="alternatingRowColors" >
+      <bool>true</bool>
+     </property>
+     <property name="viewMode" >
+      <enum>QListView::ListMode</enum>
+     </property>
+     <property name="batchSize" >
+      <number>100</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar" >
+   <property name="geometry" >
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>448</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDosya" >
+    <property name="title" >
+     <string>File</string>
+    </property>
+    <addaction name="actionPlay" />
+    <addaction name="actionStop" />
+    <addaction name="actionSettings" />
+    <addaction name="actionExit" />
+   </widget>
+   <widget class="QMenu" name="menuG_r_n_m" >
+    <property name="title" >
+     <string>Tools</string>
+    </property>
+    <addaction name="actionColor" />
+   </widget>
+   <widget class="QMenu" name="menuYard_m" >
+    <property name="title" >
+     <string>Help</string>
+    </property>
+    <addaction name="actionHelp" />
+    <addaction name="actionAbout" />
+   </widget>
+   <addaction name="menuDosya" />
+   <addaction name="menuG_r_n_m" />
+   <addaction name="menuYard_m" />
+  </widget>
+  <widget class="QStatusBar" name="statusBar" />
+  <action name="actionHakk_nda" >
+   <property name="text" >
+    <string>Hakkında</string>
+   </property>
+  </action>
+  <action name="actionHelp" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/top_buttons/icons/help.png</normaloff>:/top_buttons/icons/help.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionAbout" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/icons/icons/sazli.png</normaloff>:/icons/icons/sazli.png</iconset>
+   </property>
+   <property name="text" >
+    <string>About KXmp</string>
+   </property>
+  </action>
+  <action name="actionPlay" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/buttons/icons/media_playback_start.png</normaloff>:/buttons/icons/media_playback_start.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Play</string>
+   </property>
+  </action>
+  <action name="actionStop" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/buttons/icons/media_playback_stop.png</normaloff>:/buttons/icons/media_playback_stop.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Stop</string>
+   </property>
+  </action>
+  <action name="actionExit" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/top_buttons/icons/exit.png</normaloff>:/top_buttons/icons/exit.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionSettings" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/top_buttons/icons/preferences_system.png</normaloff>:/top_buttons/icons/preferences_system.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Settings</string>
+   </property>
+  </action>
+  <action name="actionColor" >
+   <property name="icon" >
+    <iconset resource="kxmpicons.qrc" >
+     <normaloff>:/top_buttons/icons/palet.png</normaloff>:/top_buttons/icons/palet.png</iconset>
+   </property>
+   <property name="text" >
+    <string>Colors</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="kxmpicons.qrc" />
+ </resources>
+ <connections/>
+</ui>

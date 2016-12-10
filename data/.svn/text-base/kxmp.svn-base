@@ -1,0 +1,4 @@
+#!/usr/bin/python
+# kxmp startup script...
+
+import kxmp

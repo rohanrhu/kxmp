@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=KXmp
+Exec=kxmp
+Icon=kxmp
+Categories=Qt;KDE;Application;AudioVideo;Player;
+Comment=Xm media player...
+Comment[tr]=Xm çalar...
+Terminal=false
+Type=Application
+StartupNotify=true
